@@ -23,7 +23,7 @@ void list_free(list_t *head_of_list) {
   while (current != NULL) {
     next = current->next;
     free(current);
-    current = next
+    current = next;
   }
 }
 
@@ -177,7 +177,6 @@ elem list_get_elem_at(list_t *head_of_list, int index) {
 
 
 int list_get_index_of(list_t *head_of_list, elem value) { 
-  int list_get_index_of(list_t *head_of_list, elem value) {
   node_t *current = head_of_list->head;
   int count = 1;
   while (current != NULL) {

@@ -16,16 +16,14 @@ typedef int elem;
 typedef struct node {
 	elem value;
 	struct node *next;
-};
-typedef struct node node_t;
+} node_t;
 
 /* Defines the list structure, which simply points to the first node in the
  * list. */
 typedef struct list {
 	node_t *head;
 	int length;
-};
-typedef struct list list_t;
+} list_t;
 
 /* Functions for allocating and freeing lists. By using only these functions,
  * the user should be able to allocate and free all the memory required for
