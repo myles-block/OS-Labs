@@ -5,3 +5,4 @@
 # Myles Block
 list: list.c main.c
 	gcc list.c main.c -o list
+	./matrix 2
