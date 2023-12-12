@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     schedsim
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _findWaitingTimeRR, symObjAddr: 0x0, symBinAddr: 0x100003068, symSize: 0x23C }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _findWaitingTimeRR, symObjAddr: 0x0, symBinAddr: 0x100003068, symSize: 0x23C }
+  - { offsetInCU: 0xE9, offset: 0xE9, size: 0x8, addend: 0x0, symName: _findWaitingTimeSJF, symObjAddr: 0x23C, symBinAddr: 0x1000032A4, symSize: 0x3A8 }
+  - { offsetInCU: 0x1D4, offset: 0x1D4, size: 0x8, addend: 0x0, symName: _findWaitingTime, symObjAddr: 0x5E4, symBinAddr: 0x10000364C, symSize: 0xAC }
+  - { offsetInCU: 0x222, offset: 0x222, size: 0x8, addend: 0x0, symName: _findTurnAroundTime, symObjAddr: 0x690, symBinAddr: 0x1000036F8, symSize: 0x8C }
+  - { offsetInCU: 0x270, offset: 0x270, size: 0x8, addend: 0x0, symName: _my_comparer, symObjAddr: 0x71C, symBinAddr: 0x100003784, symSize: 0x18 }
+  - { offsetInCU: 0x2A6, offset: 0x2A6, size: 0x8, addend: 0x0, symName: _findavgTimeFCFS, symObjAddr: 0x734, symBinAddr: 0x10000379C, symSize: 0x44 }
+  - { offsetInCU: 0x2D8, offset: 0x2D8, size: 0x8, addend: 0x0, symName: _findavgTimeSJF, symObjAddr: 0x778, symBinAddr: 0x1000037E0, symSize: 0x44 }
+  - { offsetInCU: 0x30A, offset: 0x30A, size: 0x8, addend: 0x0, symName: _findavgTimeRR, symObjAddr: 0x7BC, symBinAddr: 0x100003824, symSize: 0x5C }
+  - { offsetInCU: 0x34A, offset: 0x34A, size: 0x8, addend: 0x0, symName: _findavgTimePriority, symObjAddr: 0x818, symBinAddr: 0x100003880, symSize: 0x2C }
+  - { offsetInCU: 0x37C, offset: 0x37C, size: 0x8, addend: 0x0, symName: _printMetrics, symObjAddr: 0x844, symBinAddr: 0x1000038AC, symSize: 0x190 }
+  - { offsetInCU: 0x402, offset: 0x402, size: 0x8, addend: 0x0, symName: _initProc, symObjAddr: 0x9D4, symBinAddr: 0x100003A3C, symSize: 0x94 }
+  - { offsetInCU: 0x454, offset: 0x454, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA68, symBinAddr: 0x100003AD0, symSize: 0x148 }
+  - { offsetInCU: 0x26, offset: 0x76F, size: 0x8, addend: 0x0, symName: _parse_file, symObjAddr: 0x0, symBinAddr: 0x100003C18, symSize: 0x1B8 }
+  - { offsetInCU: 0xB5, offset: 0x7FE, size: 0x8, addend: 0x0, symName: _parse_file, symObjAddr: 0x0, symBinAddr: 0x100003C18, symSize: 0x1B8 }
+...
